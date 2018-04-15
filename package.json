@@ -4,7 +4,7 @@
   "description": "This is a node todo api",
   "main": "index.js",
   "scripts": {
-    "start":"node server/server.js",
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rishi",
@@ -12,6 +12,7 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
+    "lodash": "^4.17.5",
     "mongodb": "^2.2.5",
     "mongoose": "^4.5.9"
   }
